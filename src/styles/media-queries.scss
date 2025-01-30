@@ -5,9 +5,6 @@
 }
 
 @media (max-width: 1000px) {
-  .github-fork-ribbon {
-    display: none;
-  }
   .card {
     flex-direction: column;
     width: 100%;
@@ -19,8 +16,6 @@
 
     .shoe {
       width: 100%;
-      transform: rotate(-5deg) translateY(-50%);
-      top: 55%;
       right: 2%;
     }
     .nike {
@@ -31,6 +26,9 @@
 }
 
 @media (max-width: 600px) {
+  .shoeBackground {
+    border-radius: 25px;
+  }
   .share {
     width: 40px;
     height: 40px;
@@ -84,34 +82,6 @@
         }
       }
     }
-
-    .color-container {
-      .colors {
-        .color {
-          margin: 0 20px;
-          width: 20px;
-          height: 20px;
-          border-width: 4px;
-        }
-      }
-    }
-    .size-container {
-      .sizes {
-        .size {
-          width: 30px;
-          height: 30px;
-          margin: 0 8px;
-          font-size: 0.9rem;
-          line-height: 30px;
-        }
-      }
-    }
-  }
-  .share {
-    width: 35px;
-    height: 35px;
-    top: 10px;
-    right: 10px;
   }
 
   svg {
@@ -130,27 +100,5 @@
   }
   .container {
     padding: 10px;
-  }
-}
-@media (max-width: 340px) {
-  .info {
-    .color-container {
-      .colors {
-        display: flex;
-        justify-content: space-around;
-        .color {
-          margin: 0;
-        }
-      }
-    }
-    .size-container {
-      .sizes {
-        display: flex;
-        justify-content: space-around;
-        .size {
-          margin: 0;
-        }
-      }
-    }
   }
 }

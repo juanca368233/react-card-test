@@ -27,12 +27,11 @@ const Info = () => {
       
       <p className="text">
       Todo lo que necesitas 
-      <br /> para tu gestión de manera 
-      <br /><span className="boldfont">integrada y optimizada.</span>
+      para tu gestión de manera 
+     <b className="boldfont"> integrada y optimizada.</b>
       </p>
     </div>
   );
-
 
 
   const BuySection = (
@@ -41,9 +40,10 @@ const Info = () => {
         <i className="fas fa-shopping-cart"></i>Añadir al carrito
       </a>
       <div className="price">
-        <i className="fas fa-dollar-sign"></i>
-        <h1>149.99</h1>
+       <p>- 1 +</p>
       </div>
+
+      
     </div>
   );
 
