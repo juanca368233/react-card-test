@@ -20,6 +20,30 @@ const Home = () => {
           </div>
           <Info />
         </div>
+        <div className="card">
+          <div className="shoeBackground">
+
+
+            <h1 className="hr">HR</h1>
+            <img src={logo} alt="logo" className="logo" />
+            
+
+            <ProductImages />
+          </div>
+          <Info />
+        </div>
+        <div className="card">
+          <div className="shoeBackground">
+
+
+            <h1 className="hr">HR</h1>
+            <img src={logo} alt="logo" className="logo" />
+            
+
+            <ProductImages />
+          </div>
+          <Info />
+        </div>
       </div>
     </div>
   );
