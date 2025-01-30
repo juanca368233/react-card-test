@@ -26,8 +26,9 @@ const Info = () => {
     <div className="description">
       
       <p className="text">
-        Ensure a comfortable running session by wearing this pair of cool
-        running shoes from Nike.
+      Todo lo que necesitas 
+      <br /> para tu gestión de manera 
+      <br /><span className="boldfont">integrada y optimizada.</span>
       </p>
     </div>
   );
@@ -37,7 +38,7 @@ const Info = () => {
   const BuySection = (
     <div className="buy-price">
       <a href="/#" className="buy">
-        <i className="fas fa-shopping-cart"></i>Add to card
+        <i className="fas fa-shopping-cart"></i>Añadir al carrito
       </a>
       <div className="price">
         <i className="fas fa-dollar-sign"></i>

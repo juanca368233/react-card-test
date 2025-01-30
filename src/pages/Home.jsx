@@ -54,9 +54,7 @@ const Home = () => {
 
             <h1 className="hr">HR</h1>
             <img src={logo} alt="logo" className="logo" />
-            <a href="/#" className="share">
-              <i className="fas fa-share-alt"></i>
-            </a>
+            
 
             <ProductImages />
           </div>
