@@ -1,3 +1,5 @@
+@use "./variables" as *;
+
 .container {
   @include fc;
   min-height: 100vh;
@@ -102,7 +104,7 @@
       .big {
         color: #B2ACF3;
         font-weight: bold;
-        font-size: 30∫0px;
+        font-size: 30px;
         margin-right: 10px;
         line-height: 1;
         margin-top: 20px;
