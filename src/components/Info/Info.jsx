@@ -11,6 +11,7 @@ const Info = () => {
     });
   };
   
+  // Tarjeta de informaci[on con estrellas
   const shoeName = (
     <div className="shoeName">
       <h3 className="small">Herramientas de gestión</h3>
@@ -37,6 +38,7 @@ const Info = () => {
     </div>
   );
 
+  // Funcion onclick para generar alerta
   const BuySection = (
     <div className="buy-price">
       <a href="/#" className="buy" onClick={handleAddToCart}>
