@@ -1,7 +1,16 @@
 import React from "react";
 import { FaStar, FaRegStar } from "react-icons/fa";
+import { toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 
 const Info = () => {
+  const handleAddToCart = () => {
+    toast.success("¡Producto añadido al carrito!", {
+      position: "top-left",
+      autoClose: 3000,
+    });
+  };
+  
   const shoeName = (
     <div className="shoeName">
       <h3 className="small">Herramientas de gestión</h3>
@@ -30,7 +39,7 @@ const Info = () => {
 
   const BuySection = (
     <div className="buy-price">
-      <a href="/#" className="buy">
+      <a href="/#" className="buy" onClick={handleAddToCart}>
         <i className="fas fa-shopping-cart"></i>Añadir al carrito
       </a>
       <div className="price">

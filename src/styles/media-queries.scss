@@ -17,6 +17,8 @@
     .shoe {
       width: 100%;
       right: 2%;
+      height: 200px;
+      object-fit: cover;
     }
     .nike {
       top: 20%;
@@ -26,6 +28,9 @@
 }
 
 @media (max-width: 600px) {
+  .container {
+    flex-direction: column;
+  }
   .shoeBackground {
     border-radius: 25px;
   }
